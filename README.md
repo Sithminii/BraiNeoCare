@@ -1,4 +1,4 @@
-# Explainable Deep Learning for Neonatal Seizure Prediction with Reduced Montage
+# A Patient-Independent Neonatal Seizure Prediction Model Using Reduced Montage EEG and ECG
 
 ## Problem Background
 
