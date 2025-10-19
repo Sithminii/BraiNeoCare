@@ -19,10 +19,13 @@
 
 ### Create a Conda ENvironment
 
-If you haven't installed Conda on your PC, please install Conda by referring to the following link.
-[](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+If you haven't installed Conda on your PC, please install it by referring to the following link.
+[https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
-Once you successfully installed Conda on your PC, you can start by creating a Conda environment for the project. Let's say the name of the environment is BraiNeoCare
+Once you have successfully installed Conda on your PC, you can start by creating a Conda environment for the project.
+```bash
+conda activate myenv
+```
 
 ### Clone the GitHub repository
 
@@ -31,7 +34,31 @@ Next, clone the GitHub repository by running the following command in your termi
 ```bash
 git clone https://github.com/Sithminii/BraiNeoCare.git
 ```
+Then get into the cloned folder.
+```bash
+cd BraiNeoCare
+```
 
 ### Install required libraries
+Inside the BraiNeoCare folder, run the following command to install all the required libraries.
+```bash
+pip install -r requirements.txt
+```
+### Dataset
+To run the files, you need to download the publicly available Zenodo Neonatal EEG dataset published by Helsinki University. You can find the dataset [here](https://zenodo.org/records/4940267). Please make sure to download version 4 of the dataset. It is recommended to create a folder named "Datasets" and download the dataset into that folder.
+
+``` bash
+Datasets\
+|------- Zenodo_eeg\
+|        |--------- annotations_2017.mat
+|        |--------- eeg1.edf
+|        |           :
+|        |--------- eeg79.edf
+|------- processed_data\
+         |--------- traindata.npy
+         |--------- trainlabels.npy
+         |--------- testdata.npy
+         |--------- testlabels.npy
+```
 
 
