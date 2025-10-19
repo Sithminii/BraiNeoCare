@@ -71,13 +71,13 @@ For model interpretability, we utilize the SHAP algorithm and obtain scalp maps 
 </p>
 
 - **Alignment with actual seizure locations:**
-For most neonates (e.g., Neonates 13, 15, 51, 62, 66, and 77), the model’s predicted high-importance EEG channels closely match the actual seizure locations reported in the Helsinki dataset. Darker connections in the scalp maps indicate higher-importance channels, providing a clear visualization of the model’s decision-making and aiding clinicians in localizing seizure focus.
+  For most neonates (e.g., Neonates 13, 15, 51, 62, 66, and 77), the model’s predicted high-importance EEG channels closely match the actual seizure locations reported in the Helsinki dataset. Darker connections in the scalp maps indicate higher-importance channels, providing a clear visualization of the model’s decision-making and aiding clinicians in localizing seizure focus.
 
 - **Partial deviations in some cases:**
-A few neonates (Neonates 11, 21, and 40) show slight deviations between predicted and actual seizure locations. For example, Neonate 11 shows predominant activity in the left hemisphere while the clinical seizure focus is in the right posterior quadrant. These deviations may result from early preictal activity or propagation to neighboring channels.
+  A few neonates (Neonates 11, 21, and 40) show slight deviations between predicted and actual seizure locations. For example, Neonate 11 shows predominant activity in the left hemisphere while the clinical seizure focus is in the right posterior quadrant. These deviations may result from early preictal activity or propagation to neighboring channels.
 
 - **Clinical interpretability and insights:**
-Despite minor deviations, the scalp plots provide valuable interpretability, showing approximate seizure localization and offering clinicians complementary insights. The visualizations enhance the transparency of the predictive model and can guide further clinical assessment.
+  Despite minor deviations, the scalp plots provide valuable interpretability, showing approximate seizure localization and offering clinicians complementary insights. The visualizations enhance the transparency of the predictive model and can guide further clinical assessment.
 
 
 
