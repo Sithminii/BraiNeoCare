@@ -55,10 +55,17 @@ Datasets\
 |        |           :
 |        |--------- eeg79.edf
 |------- processed_data\
-         |--------- traindata.npy
-         |--------- trainlabels.npy
-         |--------- testdata.npy
-         |--------- testlabels.npy
+         |--------- neon_1
+                    |--------- 0_pre_txt
+                                :
+                    |--------- 0_int_txt
+                                :
+         |           :
+         |--------- neon_77
+                    |--------- n_pre_txt
+                                :
+                    |--------- m_int_txt
+                                :
 ```
 
 ## Model Training
