@@ -17,12 +17,21 @@
 
 <img width="1326" height="595" alt="image" src="https://github.com/user-attachments/assets/5c254abf-7025-4cf3-8b90-6011cf789948" />
 
+### Create a Conda ENvironment
+
+If you haven't installed Conda on your PC, please install Conda by referring to the following link.
+[](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
+Once you successfully installed Conda on your PC, you can start by creating a Conda environment for the project. Let's say the name of the environment is BraiNeoCare
+
 ### Clone the GitHub repository
 
 Next, clone the GitHub repository by running the following command in your terminal after navigating to a preferred location. Or else you can download the zip from the GitHub repo.
 
 ```bash
-git clone
+git clone https://github.com/Sithminii/BraiNeoCare.git
 ```
 
 ### Install required libraries
+
+
