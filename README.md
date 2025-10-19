@@ -81,6 +81,24 @@ For model interpretability, we utilize the SHAP algorithm and obtain scalp maps 
 - **Clinical interpretability and insights:**  
   Despite minor deviations, the scalp plots provide valuable interpretability, showing approximate seizure localization and offering clinicians complementary insights. The visualizations enhance the transparency of the predictive model and can guide further clinical assessment.
 
+## Study Summary
+
+- **Research gap addressed:**  
+  Developed a patient-independent seizure prediction model using EEG and ECG signals to improve prediction performance in neonates.
+
+- **Model architecture:**  
+  Proposed a lightweight CNN-based model with attention mechanisms, trained and validated on the Helsinki neonatal dataset. The model generalizes well to new subjects with fine-tuning using only a few samples.
+
+- **Explainable AI integration:**  
+  Incorporated explainable AI techniques to generate scalp plots from model predictions, helping clinicians visualize and localize upcoming seizures for timely interventions.
+
+- **Clinical impact:**  
+  Demonstrates potential for real-world clinical applications, enabling improved neonatal care. Further research with larger datasets is needed to enhance generalization and applicability.
+
+## Acknowledgement
+
+The computational resources used in this project were funded by the Clair Accelerating Higher Education Expansion and Development (AHEAD) Operation of the Ministry of Higher Education of Sri Lanka, funded by the World Bank.
+
 
 
 
