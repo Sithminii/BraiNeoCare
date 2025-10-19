@@ -1,5 +1,4 @@
-### Explainable Deep Learning for Neonatal Seizure Prediction with Reduced Montage
-#### Explainable Deep Learning for Neonatal Seizure Prediction with Reduced Montage
+# Explainable Deep Learning for Neonatal Seizure Prediction with Reduced Montage
 
 ## Problem Background
 
