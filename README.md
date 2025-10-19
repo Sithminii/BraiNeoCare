@@ -10,3 +10,9 @@
 
 - **Limitations of current monitoring methods:**  
   Continuous video-EEG (video-cEEG) is the clinical gold standard for neonatal seizure detection, but real-time monitoring requires continuous expert review and is resource-intensive, limiting its availability and practicality in many clinical settings.
+
+## Our approach
+
+### Proposed model architecture
+
+<img width="1326" height="595" alt="image" src="https://github.com/user-attachments/assets/5c254abf-7025-4cf3-8b90-6011cf789948" />
