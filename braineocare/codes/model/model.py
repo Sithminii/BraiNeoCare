@@ -85,9 +85,9 @@ class MFCCModel(nn.Module):
 
 
 
-class SigmoiWrappedModel(nn.Module):
+class SigmoidWrappedModel(nn.Module):
     def __init__(self, model):
-        super(SigmoiWrappedModel, self).__init__()
+        super(SigmoidWrappedModel, self).__init__()
         self.model = model
 
     def forward(self, x):
