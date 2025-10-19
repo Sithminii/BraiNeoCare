@@ -82,4 +82,14 @@ class MFCCModel(nn.Module):
         x_out = self.classifier(self.flatten(x))
 
         return x_out
-    
+
+
+
+class SigmoiWrappedModel(nn.Module):
+    def __init__(self, model):
+        super(SigmoiWrappedModel, self).__init__()
+        self.model = model
+
+    def forward(self, x):
+        logit = self.model(x)
+        return nn.functional.sigmoid(logit)
