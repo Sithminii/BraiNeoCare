@@ -17,14 +17,14 @@
 
 <img width="1326" height="595" alt="image" src="https://github.com/user-attachments/assets/5c254abf-7025-4cf3-8b90-6011cf789948" />
 
-### Create a Conda ENvironment
+### Create a Conda Environment
 
 If you haven't installed Conda on your PC, please install it by referring to the following link.
 [https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
 Once you have successfully installed Conda on your PC, you can start by creating a Conda environment for the project.
 ```bash
-conda activate myenv
+conda activate my_env
 ```
 
 ### Clone the GitHub repository
