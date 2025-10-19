@@ -97,7 +97,7 @@ For model interpretability, we utilize the SHAP algorithm and obtain scalp maps 
 
 ## Acknowledgement
 
-The computational resources used in this project were funded by the Clair Accelerating Higher Education Expansion and Development (AHEAD) Operation of the Ministry of Higher Education of Sri Lanka, funded by the World Bank.
+- The computational resources used in this project were funded by the Clair Accelerating Higher Education Expansion and Development (AHEAD) Operation of the Ministry of Higher Education of Sri Lanka, funded by the World Bank.
 
 
 
