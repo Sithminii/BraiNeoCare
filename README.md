@@ -64,5 +64,9 @@ Datasets\
 
 ## Model Interpretability
 
-For model interpretability, we utilize the SHAP algorithm and obtain scalp maps with seizure localization as given in the below figure.
-<img width="474" height="668" alt="image" src="https://github.com/user-attachments/assets/28d66f9e-11ae-404e-90d0-25404f95f932" />
+For model interpretability, we utilize the SHAP algorithm and obtain scalp maps with seizure localization as given in the figure below.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/28d66f9e-11ae-404e-90d0-25404f95f932" width="474" height="668" />
+</p>
+
