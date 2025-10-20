@@ -30,7 +30,7 @@ mfcc_specs = {'n_mfcc': mfcc_cfg['n_mfcc'],
 
 # Define file and folder paths
 data_path = conf['paths']['zenodo_dataset_path']
-dest_path = conf['paths']['dataset_path']
+dest_path = conf['paths']['primatry_dataset_path']
 annotations_path = os.path.join(data_path, 'annotations_2017.mat')
 
 # Generate the interictal and preictal dataset

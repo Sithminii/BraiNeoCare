@@ -151,7 +151,6 @@ def read_and_extract_data(data_folder:str,
     Saves neonate-wise interictal and preictal samples in .txt format and MFCC matrices in .npy format separately
     '''
     
-    dest_path = os.path.join(dest_path, 'processed_data')
     os.makedirs(dest_path, exist_ok=True)
     
     # Create two folders to store extracted signal samples and computed MFCC matrices separately
@@ -284,7 +283,7 @@ def read_and_extract_data(data_folder:str,
 
 
             # Check if there are data samples to store for the current neonate
-            if len(preictal_signals)!=0 or len(interictal_signals)!=0:
+            if len(preictal_signals)>=10 and len(interictal_signals)>=10:
                 
                 # Create a folder for the current neonate to store signal samples
                 sample_folder_name = os.path.join(signal_sample_dest,f'neon_{n}')

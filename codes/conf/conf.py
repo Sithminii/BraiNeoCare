@@ -2,8 +2,9 @@ def get_config():
 
     conf = {
         'paths': {
-            'zenodo_dataset_path': 'braineocare/Datasets/Zenodo_dataset',
-            'dataset_path': 'braineocare/Datasets/processed_dataset',
+            'zenodo_dataset_path': 'Datasets/Zenodo_dataset',
+            'primatry_dataset_path': 'Datasets/processed_data',
+            'dataset_path': 'Datasets/processed_data/mfcc_dataset',
 
             # dataset paths for explainable AI test
             'train_path': 'braineocare/XAI/train_data',
@@ -12,7 +13,7 @@ def get_config():
             
             'kfold_output_path':'braineocare/results/zenodo_kfold/checkpts',
             'kfold_fold_path': 'braineocare/results/zenodo_kfold/fold_data',
-            'lopo_path': 'braineocare/results/zenodo_kfold',
+            'lopo_path': 'braineocare/results/zenodo_lopo',
 
             'weights_path': 'braineocare/outputs/checkpoint_no_cv.pth',
             'explainer_path': 'braineocare/outputs/shap_explainer.pkl',
