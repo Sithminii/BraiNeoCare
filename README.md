@@ -56,14 +56,14 @@ Datasets\
 |        |           :
 |        |--------- eeg79.edf
 |------- processed_data\
-         |--------- mfcc_dataset
-                   |--------- neon_1
+         |--------- mfcc_dataset\
+                   |--------- neon_1\
                    |           :
-                   |--------- neon_77
-         |--------- raw_data
-                   |--------- neon_1
+                   |--------- neon_77\
+         |--------- raw_data\
+                   |--------- neon_1\
                    |           :
-                   |--------- neon_77
+                   |--------- neon_77\
 ```
 
 Make sure the downloaded dataset has the structure of Datasets folder as above. 
