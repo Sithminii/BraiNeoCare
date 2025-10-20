@@ -57,11 +57,11 @@ Datasets\
 |        |--------- eeg79.edf
 |------- processed_data\
          |--------- mfcc_dataset\
-                   |--------- neon_1\
+                   |--------- neon_11\
                    |           :
                    |--------- neon_77\
          |--------- raw_data\
-                   |--------- neon_1\
+                   |--------- neon_11\
                    |           :
                    |--------- neon_77\
 ```
