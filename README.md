@@ -92,7 +92,9 @@ This generates a folder named **`processed_data`** inside the **`Datasets`** dir
 
 ## Model Training
 
-If you want to train the model, run the following command. This wil train the model using 10-fold cross-validation. 
+The fully trained model can be loaded from the file **`trained_model.pth`** located in the **`braineocare/outputs`** directory.
+
+To train the model from scratch, run the following command. This wil train the model using 10-fold cross-validation. 
 ```bash
 python codes/main_train.py
 ```
