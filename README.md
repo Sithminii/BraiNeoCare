@@ -55,17 +55,14 @@ Datasets\
 |        |           :
 |        |--------- eeg79.edf
 |------- processed_data\
-         |--------- neon_1
-                    |--------- 0_pre_txt
-                                :
-                    |--------- 0_int_txt
-                                :
-         |           :
-         |--------- neon_77
-                    |--------- n_pre_txt
-                                :
-                    |--------- m_int_txt
-                                :
+         |--------- mfcc_dataset
+                   |--------- neon_1
+                   |           :
+                   |--------- neon_77
+         |--------- raw_data
+                   |--------- neon_1
+                   |           :
+                   |--------- neon_77
 ```
 
 ## Model Training
