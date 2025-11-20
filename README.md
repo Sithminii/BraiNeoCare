@@ -1,6 +1,6 @@
 # A Patient-Independent Neonatal Seizure Prediction Model Using Reduced Montage EEG and ECG
 
-Check out the our paper on arXiv:
+Check out our paper on arXiv
 <a href="https://arxiv.org/abs/2511.14110" target="_blank">here</a>.
 
 
